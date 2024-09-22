@@ -74,7 +74,7 @@ This project uses a Convolutional Neural Network (CNN) to classify Instagram pro
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/fake-profile-detection.git
+git clone https://github.com/Akash-sk-bio/fake-profile-detection.git
 cd fake-profile-detection
 ```
 
