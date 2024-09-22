@@ -85,6 +85,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('detection/', include('detection.urls')),  # Include detection app URLs
 ]
+
 6. Create HTML Templates:
 Create a directory detection/templates and add two HTML files: predict.html (for the input form) and result.html (for the prediction result).
 detection/templates/predict.html:
@@ -123,6 +124,7 @@ detection/templates/result.html:
     <a href="{% url 'predict' %}">Try another profile</a>
 </body>
 </html>
+
 7. Run the Django Application:
 Run the Django development server:
 python manage.py runserver
